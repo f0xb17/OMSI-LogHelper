@@ -1,0 +1,23 @@
+{
+  "name": "logview",
+  "version": "0.0.1",
+  "description": "A logfile reader for OMSI.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "OMSI",
+    "Logfile",
+    "Viewer",
+    "Reader",
+    "Electron",
+    "JavaScript"
+  ],
+  "author": "f0xb17",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "electron": "^24.1.2"
+  }
+}

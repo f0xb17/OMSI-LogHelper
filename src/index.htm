@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <form>
+      <label for="filepath">Dateipfad:</label>
+      <input type="text" id="filepath" name="filepath">
+      <input type="button" id="load" value="Laden">
+    </form>
+    <script src="./app.js"></script>
+    <h3>Errors</h3>
+    <p id="errors"></p>
+    <h3>Warnings</h3>
+    <p id="warnings"></p>
+    <h3>Informations</h3>
+    <p id="informations"></p>
+  </body>
+</html>
