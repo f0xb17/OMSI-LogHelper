@@ -12,5 +12,11 @@ With this tool, the focus should be put on the really critical things. That's wh
 * build in security features used
 * Fully written with JavaScript and HTML
 
+# How to use?
+* Install current NodeJS (Link: https://nodejs.org/en)
+* Clone that Repository 
+* Run **npm install** to obtain Electron
+* Run **npm start** and wait till Electron Window appears
+
 # Known Problems
 * Currently there is no UI
